@@ -15,7 +15,7 @@ $ git clone https://github.com/lieucuong/my-resume.git
 $ cd /my-resume
 
 # Install
-$ yarn istall
+$ yarn install
 
 # Run the project
 $ yarn dev
