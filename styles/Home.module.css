@@ -1,140 +1,140 @@
 .introduction {
-    background-color: rgba(100,100,100,.1);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 3rem 0;
-    margin: 0 1rem;
+  background-color: rgba(100,100,100,.1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  margin: 0 1rem;
 }
 .avatar {
-    width: 200px;
-    height: 200px;
-    padding: 0 2rem;
-    border-radius: 50%;
-    margin: auto;
+  width: 200px;
+  height: 200px;
+  padding: 0 2rem;
+  border-radius: 50%;
+  margin: auto;
 }
 .wrapper{
-    padding: 1rem 2rem;
-    flex: 1 350px;
+  padding: 1rem 2rem;
+  flex: 1 350px;
 }
 .name{
-    font-size: 3rem;
+  font-size: 3rem;
 }
 .title{
-    font-size: 1.2rem;
-    margin-top: .5rem;
+  font-size: 1.2rem;
+  margin-top: .5rem;
 }
 
 .experience {
-    display: flex;
-    flex-direction: column;
-    padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
 }
 .experience-work {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem 0;
-    border-bottom: 1px solid rgba(200,200,200, .2);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(200,200,200, .2);
 }
 .experience-work:first-child{
-    padding-top: 0;
+  padding-top: 0;
 }
 .experience-work-title {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 .experience-work-duration {
-    font-size: 1rem;
-    margin: 0 1rem;
-    opacity: 0.5;
-    margin-left: 1rem;
+  font-size: 1rem;
+  margin: 0 1rem;
+  opacity: 0.5;
+  margin-left: 1rem;
 }
 
 .experience-work-type {
-    font-size: 1rem;
-    opacity: 0.5;
+  font-size: 1rem;
+  opacity: 0.5;
 }
 
 .experience-work-place {
-    display: flex;
-    align-items: center;
-    margin: .5rem 0;
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
 }
 
 .experience-work-place img {
-    max-height: 45px;
-    max-width: 100px;
-    justify-self: center
+  max-height: 45px;
+  max-width: 100px;
+  justify-self: center
 }
 
 .experience-work-place div {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
 
 .experience-work-stack{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 .experience-work-tool{
-    display: flex;
-    align-items: center;
-    margin: .5rem 1rem;
+  display: flex;
+  align-items: center;
+  margin: .5rem 1rem;
 }
 
 .experience-work-tool img{
-    width: 20px;
-    margin-right: .5rem;
+  width: 20px;
+  margin-right: .5rem;
 }
 
 
 .skills {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid rgba(200,200,200, .2);
-    padding: 0 1rem;
-    padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(200,200,200, .2);
+  padding: 0 1rem;
+  padding-bottom: 3rem;
 }
 .tag{
-    background-color: rgb(4, 170, 109);
-    color: white;
-    border-radius: 25px;
-    padding: .3rem ;
+  background-color: rgb(4, 170, 109);
+  color: white;
+  border-radius: 25px;
+  padding: .3rem ;
 }
 
 .skill{
-    display: flex;
-    align-items: center;
-    margin: .5rem 0;
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
 }
 
 .skill img{
-    width: 20px;
-    margin-right: .5rem;
+  width: 20px;
+  margin-right: .5rem;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    padding: 0 1rem;
-    padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  padding-bottom: 3rem;
 }
 .contact-type{
-    display: flex;
-    align-items: center;
-    margin: .5rem 0;
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
 }
 
 .contact-type img{
-    width: 20px;
-    margin-right: .5rem;
+  width: 20px;
+  margin-right: .5rem;
 }
 
 .contact-type a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
