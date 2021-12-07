@@ -1,14 +1,20 @@
 name: Build my-resume project
-on: push
+on:
+  push:
+    branches:
+      - master
 jobs:
-  deploy_prod:
-    if: contains( github.ref, 'master')
+  build:
     name: Build project
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Install
+      - name: Checkout code in master
+        uses: actions/checkout@master
+      - name: setup nodeJs enviroment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+      - name: Install NPM dependencies
         run: npm install
       - name: Build project
         run: npm run build

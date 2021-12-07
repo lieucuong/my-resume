@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/home.module.css'
+import styles from '../styles/Home.module.css'
 import Introduction from '../components/introduction'
 import Experience from '../components/experience'
 import Project from '../components/project'
