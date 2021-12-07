@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/home.module.css'
-import Introduction from '../components/introduction';
-import Experience from '../components/experience';
-import Skill from '../components/skill';
-import Contact from '../components/contact';
+import Introduction from '../components/introduction'
+import Experience from '../components/experience'
+import Project from '../components/project'
+import Skill from '../components/skill'
+import Contact from '../components/contact'
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <section className="resume-main">
           <h3>Working Experiences</h3>
           <Experience />
+          <h3>Project</h3>
+          <Project />
         </section>
         <section className="resume-sidebar">
           <h3>Skills</h3>

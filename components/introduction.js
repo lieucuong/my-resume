@@ -1,20 +1,29 @@
 import Head from 'next/head'
+import Image from "next/image"
 import styles from '../styles/home.module.css'
-import data from '../data/data.json';
+import data from '../data/resume.json'
 
 export default function Introduction() {
   return (
-    <article className={styles.introduction}>
-      <img className={styles.avatar} src={data.introduction.avatar} />
-      <div className={styles.wrapper}>
-        <h1 className={styles.name}>{data.introduction.name}</h1>
-        <h2 className={styles.title}>{data.introduction.position}</h2>
-        {
-          data.introduction.description.map((text, index) => (
-            <p key={`point_${index}`} className={styles.description}>{text}</p>
-          ))
-        }
-      </div>
-    </article>
+      <article className={styles.introduction}>
+        <div className={styles.avatar}>
+          <Image
+            src={data.basics.image}
+            width={200}
+            height={200}
+            alt="Avatar"
+          />
+        </div>
+        <div className={styles.wrapper}>
+            <h1 className={styles.name}>{data.basics.name}</h1>
+            <h2 className={styles.title}>{data.basics.label}</h2>
+            {
+              data.basics.summary.map((text, index) => (
+                <p key={`point_${index}`} className={styles.description}>{text}</p>
+              ))
+            }
+
+        </div>
+      </article>
   )
 }

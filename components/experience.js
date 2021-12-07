@@ -1,28 +1,38 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/home.module.css'
-import data from '../data/data.json';
+import data from '../data/resume.json';
 
 export default function Experience() {
   return (
     <>
-    <article className="experience">
+    <article className="summary">
     {
-      data.experience.map((exp, index) => (
-        <div key={`work_${index}`} className={styles['experience-work']}>
-          <div className={styles['experience-work-title']}>
-            <h4 className={styles['experience-work-position']}>{exp.title}</h4>
-            <span className={styles['experience-work-duration']}>{exp.duration}</span>
+      data.work.map((exp, index) => (
+        <div key={`work_${index}`} className={styles['summary-work']}>
+          <div className={styles['summary-work-title']}>
+            <h4 className={styles['summary-work-position']}>{exp.position}</h4>
+            <span className={styles['summary-work-duration']}>{exp.startDate} - {exp.endDate}</span>
           </div>
-          <div className={styles['experience-work-place']}>
-            <img src={exp.logo} alt={exp.company} />
+          <div className={styles['summary-work-place']}>
+            <div className={styles['small-logo']}>
+              <a href={exp.url} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={exp.logo}
+                  width={45}
+                  height={45}
+                  alt={exp.name}
+                />
+              </a>
+            </div>
             <div>
-              <h6 className={styles['experience-work-company']}>{exp.company}</h6>
-              <span className={styles['experience-work-type']}>{exp.type}</span>
+              <h6 className={styles['summary-work-company']}><a href={exp.url} target="_blank" rel="noopener noreferrer">{exp.name}</a></h6>
+              <span className={styles['summary-work-type']}>{exp.type}</span>
             </div>
           </div>
-          <ul className={styles['experience-work-description']}>
+          <ul className={styles['summary-work-description']}>
           {
-            exp.description.map((text, index) => (
+            exp.highlights.map((text, index) => (
               <li key={`point_${index}`} >{text}</li>
             ))
           }

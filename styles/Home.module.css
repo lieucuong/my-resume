@@ -7,11 +7,11 @@
   margin: 0 1rem;
 }
 .avatar {
-  width: 200px;
-  height: 200px;
   padding: 0 2rem;
-  border-radius: 50%;
   margin: auto;
+}
+.avatar img{
+  border-radius: 50%;
 }
 .wrapper{
   padding: 1rem 2rem;
@@ -25,71 +25,71 @@
   margin-top: .5rem;
 }
 
-.experience {
+.summary {
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
 }
-.experience-work {
+.summary-work {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
   border-bottom: 1px solid rgba(200,200,200, .2);
 }
-.experience-work:first-child{
+.summary-work:first-child{
   padding-top: 0;
 }
-.experience-work-title {
+.summary-work-title {
   display: flex;
   align-items: baseline;
 }
 
-.experience-work-duration {
+.summary-work-duration {
   font-size: 1rem;
   margin: 0 1rem;
   opacity: 0.5;
   margin-left: 1rem;
 }
 
-.experience-work-type {
+.summary-work-type {
   font-size: 1rem;
   opacity: 0.5;
 }
 
-.experience-work-place {
+.summary-work-place {
   display: flex;
   align-items: center;
   margin: .5rem 0;
 }
 
-.experience-work-place img {
+.summary-work-place img {
   max-height: 45px;
   max-width: 100px;
   justify-self: center
 }
 
-.experience-work-place div {
+.summary-work-place div {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
 }
 
-.experience-work-stack{
+.summary-work-stack{
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
 
-.experience-work-tool{
+.summary-work-tool{
   display: flex;
   align-items: center;
   margin: .5rem 1rem;
+  background-color: rgb(4, 170, 109);
+  color: white;
+  border-radius: 25px;
+  padding: .3rem ;
 }
 
-.experience-work-tool img{
-  width: 20px;
-  margin-right: .5rem;
-}
 
 
 .skills {
@@ -111,9 +111,7 @@
   align-items: center;
   margin: .5rem 0;
 }
-
-.skill img{
-  width: 20px;
+.small-logo{
   margin-right: .5rem;
 }
 

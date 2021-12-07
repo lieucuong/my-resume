@@ -1,0 +1,228 @@
+{
+  "basics": {
+    "name": "Cuong Chung",
+    "label": "Engineering Manager",
+    "image": "https://media-exp1.licdn.com/dms/image/C5603AQEy4YNT3XJVjA/profile-displayphoto-shrink_400_400/0/1621244617286?e=1643846400&v=beta&t=jWTpXPXm4uIQRfJhYOErhePgDSQhDLK-NV8wJH6SUN8",
+    "email": "lieucuong2505@gmail.com",
+    "phone": "0902882285",
+    "url": "https://johndoe.com",
+    "summary": [
+      "10+ years of experience in software development including project management, technical. An excellent problem solver with the ability to learn the latest technology and adapt to the new environment.",
+      "I have 5+ years of managing teams of 5 - 30 people from diverse backgrounds and age groups.experience from building long lasting teams from scratch (hiring, training, & supervising)."
+    ],
+    "location": {
+      "address": "9 Street No , An Lac Ward, Binh Tan",
+      "postalCode": "763700",
+      "city": "Ho Chi Minh City",
+      "countryCode": "VN",
+      "region": "VietNam"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "icon": "https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-3.png",
+        "url": "https://www.linkedin.com/in/cuong-chung-1b2a1563/"
+      },
+      {
+        "network": "Github",
+        "icon": "https://cdn.svgporn.com/logos/github-icon.svg",
+        "url": "https://github.com/lieucuong"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Rowboat Software Company",
+      "position": "Engineering Manager",
+      "url": "https://rowboatsoftware.com",
+      "logo": "https://media-exp1.licdn.com/dms/image/C510BAQHaYZ0Yu1tLtg/company-logo_100_100/0/1519944834571?e=1646870400&v=beta&t=D3E7vg_ylThlBwbdsHWi8Q0IHEHskzCg1I5QEmtxH_I",
+      "startDate": "April 2021",
+      "endDate": "Present",
+      "type": "Fulltime",
+      "highlights": [
+        "Manage the people and provide technical leadership to a development team working on internal and external products, including back-end and front-end systems.",
+        "Directly report to the Technology Director in the US.",
+        "Oversee and manage the engineering team in Vietnam.",
+        "In charge of recruiting, mentoring, and developing our engineering team in order to build a high-performance engineering organization.",
+        "Assist in the development of engineering technical strategy and roadmaps.",
+        "Line management (1:1 meetings, personal development and training plans, career paths, probation reviews, and performance evaluations).",
+        "Manage action plans for team continuous improvement (Team Health Monitor, sprint backlogs and plans, engineers' responsibilities and performance management, code quality, and so on).",
+        "Create a culture that is open, positive, and energized."
+      ]
+    },
+    {
+      "name": "Vitalify Asia",
+      "position": "Technical Manager",
+      "url": "https://vitalify.asia",
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG7uz3xTLfzyA/company-logo_100_100/0/1561022747350?e=1646870400&v=beta&t=QhRVd-5-_FUW5QQ7zhoHV_yXEaFzpZyfoK8JvStWWLE",
+      "startDate": "Jul 2019",
+      "endDate": "Jan 2021",
+      "type": "Fulltime",
+      "highlights": [
+        "Recruit great people for the Engineering team.",
+        "Ensure members have sufficient resources and support to do their best work .",
+        "Ensure the team follows processes- Contribute to technical training and development courses for Engineering team.",
+        "Collaborate closely with the Leader , PM and Members to support the performance and engagement of team members.",
+        "Collaborate with development team to troubleshoot and resolve issues.",
+        "Helped the team to uplift development skills, process and coding quality.",
+        "Manage around 30 staffs and deliver performance reviews of team members in a fair, accurate and timely manner.",
+        "Managed software project delivery to develop websites, mobile applications.",
+        "Setup Agile Scrum process for software development."
+      ]
+    },
+    {
+      "name": "Vitalify Asia",
+      "position": "Backend Team Leader",
+      "url": "https://vitalify.asia",
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG7uz3xTLfzyA/company-logo_100_100/0/1561022747350?e=1646870400&v=beta&t=QhRVd-5-_FUW5QQ7zhoHV_yXEaFzpZyfoK8JvStWWLE",
+      "startDate": "Feb 2017",
+      "endDate": "Jul 2019",
+      "type": "Fulltime",
+      "highlights": [
+        "Worked with Ruby on Rails and reported directly with clients.",
+        "Using AWS to build mirco-service (API Gateway, Lambda, S3, EC2…).",
+        "Optimizing performance of the system.",
+        "Review performances for individual team members and the whole team, give suggestions for improvement.",
+        "Provide the solution for solving problems.",
+        "Hands-on tasks on system design, coding, and installation/deployment.",
+        "Worked closely with development team to develop, test, and deploy solution into client’s environments.",
+        "Manage timeline and process of a work.",
+        "Setup Agile Scrum process for software development."
+      ]
+    },
+    {
+      "name": "Navigos",
+      "position": "Scrum Master",
+      "url": "https://vietnamworks.com",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQEUM1lhHo_mEA/company-logo_100_100/0/1580373010266?e=1646870400&v=beta&t=Q11IWGY6dQ-P-HvNtz8bSyw6gkKmitHUMRG-NN71JY4",
+      "startDate": "Mar 2014",
+      "endDate": "Feb 2017",
+      "type": "Contract",
+      "highlights": [
+        "Worked with Ruby on Rails and reported directly with clients.",
+        "Using AWS to build mirco-service (API Gateway, Lambda, S3, EC2…).",
+        "Optimizing performance of the system.",
+        "Review performances for individual team members and the whole team, give suggestions for improvement.",
+        "Provide the solution for solving problems.",
+        "Hands-on tasks on system design, coding, and installation/deployment.",
+        "Worked closely with development team to develop, test, and deploy solution into client’s environments.",
+        "Manage timeline and process of a work.",
+        "Setup Agile Scrum process for software development."
+      ]
+    },
+    {
+      "name": "Vitalify Asia",
+      "position": "Senior PHP Developer",
+      "url": "https://vitalify.asia",
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG7uz3xTLfzyA/company-logo_100_100/0/1561022747350?e=1646870400&v=beta&t=QhRVd-5-_FUW5QQ7zhoHV_yXEaFzpZyfoK8JvStWWLE",
+      "startDate": "Feb 2012",
+      "endDate": "Mar 2014",
+      "type": "Fulltime",
+      "highlights": [
+        "Worked with LAMP development environment, control GIT branches, review code and merge requests.",
+        "Worked closely with product managers, editorial and business partners to understand software requirements.",
+        "Collected requirements from teammates to enhance a business process and solved problem related to CodeIginater.",
+        "Maintained back-end websites, integrated payment gateways,provided APIs of games using PHP.",
+        "Optimizing the application for maximum speed and scalability."
+      ]
+    },
+    {
+      "name": "Vihan",
+      "position": "PHP Developer",
+      "url": "https://vihan.vn",
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQG7uz3xTLfzyA/company-logo_100_100/0/1561022747350?e=1646870400&v=beta&t=QhRVd-5-_FUW5QQ7zhoHV_yXEaFzpZyfoK8JvStWWLE",
+      "startDate": "Feb 2011",
+      "endDate": "Feb 2012",
+      "type": "Fulltime",
+      "highlights": [
+        "Updrage old projects to newer versions.",
+        "Building and developing some systems for clients.",
+        "Buiding internal management systems in the company to managed the website.",
+        "Design and enhance UI/UX with HTML/CSS.",
+        "Optimizing and automate processes, tasks in IT and other department to improve working efficiency."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Management Skills",
+      "keywords": [
+        "Operation Management",
+        "Team Management",
+        "Build Team",
+        "Leadership",
+        "Training",
+        "Problem Solving",
+        "Communication",
+        "Planning"
+      ]
+    },
+    {
+      "name": "Technical Skill",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "Ruby",
+        "Mysql",
+        "MongoDB",
+        "AWS",
+        "ElasticSearch"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "GN+",
+      "description": "This is application about Golf. User can input score, analyze the score card or share information to friend",
+      "keywords": [
+        "HTML",
+        "Ruby on Rails",
+        "AWS",
+        "AngularJS",
+        "MongoDB"
+      ],
+      "startDate": "Mar 2017",
+      "endDate": "May 2019",
+      "url": "https://score.golfnetwork.co.jp",
+      "role": "Backend Team Lead"
+    },
+    {
+      "name": "Japanwork",
+      "description": "Website for career-minded professionals looking for work in Vietnam. jobseeker can find and apply resumes in here.",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "Angolia Search",
+        "Mysql"
+      ],
+      "startDate": "Jan 2014",
+      "endDate": "Dec 2016",
+      "url": "https://japan.vietnamworks.com/",
+      "role": "Team Lead"
+    }
+  ]
+}
